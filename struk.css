@@ -1,0 +1,70 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: local(Roboto Thin), url("assets/fonts/roboto/Roboto-Thin.woff2") format("woff2"), url("assets/fonts/roboto/Roboto-Thin.woff") format("woff");
+  font-weight: 100;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: local(Roboto Light), url("assets/fonts/roboto/Roboto-Light.woff2") format("woff2"), url("assets/fonts/roboto/Roboto-Light.woff") format("woff");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: local(Roboto Regular), url("assets/fonts/roboto/Roboto-Regular.woff2") format("woff2"), url("assets/fonts/roboto/Roboto-Regular.woff") format("woff");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: local(Roboto Medium), url("assets/fonts/roboto/Roboto-Medium.woff2") format("woff2"), url("assets/fonts/roboto/Roboto-Medium.woff") format("woff");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: local(Roboto Bold), url("assets/fonts/roboto/Roboto-Bold.woff2") format("woff2"), url("assets/fonts/roboto/Roboto-Bold.woff") format("woff");
+  font-weight: 700;
+}
+body{
+   font-family: Roboto;
+   color: #263238;
+   line-height: 18px;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 500;
+  line-height: 25px;
+}
+.struk-pembayaran{
+  display: block;
+  padding: 10px 50px;
+  box-sizing: border-box;
+}
+.jd-struk{
+  height: 50px;
+}
+.jd-struk img{
+  position: absolute;
+  width: 200px;
+}
+.w-100{
+  width: 100%;
+  float: left;
+}
+.w-2{
+  width: 20%;
+  float: left;
+}
+.w-3{
+  width: 30%;
+  float: left;
+}
+.t-center{
+  text-align: center;
+}
